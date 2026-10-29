@@ -1,18 +1,64 @@
-style.css
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 @font-face {
   font-family: 'Open Sans';
   font-display: swap;
 }
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, strong {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
 }
+
+
 h1 {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+}
+
+strong {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #33485e;
+  font-weight: 400;
+}
+
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+
+ul li {
+  font-size: 1em;
 }
