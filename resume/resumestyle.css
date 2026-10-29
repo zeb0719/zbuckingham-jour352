@@ -1,4 +1,4 @@
-
+/* styles for my resume */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
@@ -7,7 +7,7 @@
   font-display: swap;
 }
 
-
+/* general body and element defaults */
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, strong {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
@@ -15,7 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, strong {
   font-weight: 400;
 }
 
-
+/* banner name at top */
 h1 {
   font-size: 3em;
   color: #33485e;
@@ -23,6 +23,7 @@ h1 {
   text-align: center;
 }
 
+/* title under name */
 strong {
   display: block;
   text-transform: uppercase;
@@ -31,7 +32,7 @@ strong {
   font-weight: 400;
 }
 
-
+/* section headers (Experience, Education, Skills) */
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -40,25 +41,26 @@ h2 {
   font-weight: 400;
 }
 
-
+/* job titles */
 h3 {
   font-weight: 600;
   font-size: 1.5em;
 }
 
-
+/* job organizations */
 h4 {
   font-weight: 400;
   font-size: 1.5em;
 }
 
+/* job dates */
 h5 {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
 }
 
-
+/* contact info, skills, and education list items */
 ul li {
   font-size: 1em;
 }
