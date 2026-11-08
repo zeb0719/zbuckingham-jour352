@@ -1,0 +1,135 @@
+style.css
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1e1e1e;
+  background-color: #f9f9fb;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Customization */
+.custom-navbar {
+  background-color: #ffffff;
+  border-top: 4px solid #e21833; /* Maryland Red Accent Bar */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.custom-navbar .navbar-brand {
+  color: #1e1e1e;
+  letter-spacing: -0.5px;
+}
+
+.custom-navbar .nav-link {
+  color: #4a5568;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: #e21833;
+}
+
+/* Page Topper / Hero Header */
+
+.hero-section {
+  /* Semi-transparent dark overlay + flag background image */
+  background: 
+    linear-gradient(rgba(26, 26, 26, 0.85), rgba(26, 26, 26, 0.85)),
+    url('marylandflag.png') center/cover no-repeat;
+  color: #ffffff;
+  position: relative;
+  border-bottom: 5px solid #ffd100; /* Terp Gold Accent Line */
+}
+
+.hero-section .text-muted {
+  color: #e2e8f0 !important; /* Slightly lighter gray for high contrast */
+}
+
+.hero-title {
+  color: #ffd100; /* Terp Gold Subtitle */
+  font-weight: 600;
+}
+
+/* Custom Primary Button (Maryland Red) */
+.btn-primary {
+  background-color: #e21833;
+  border-color: #e21833;
+  font-weight: 600;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus {
+  background-color: #b81228;
+  border-color: #b81228;
+}
+
+/* Custom Outline Button (Gold Accent on Dark Header) */
+.btn-outline-dark {
+  color: #ffffff;
+  border-color: #ffd100;
+}
+
+.btn-outline-dark:hover {
+  background-color: #ffd100;
+  color: #1e1e1e;
+  border-color: #ffd100;
+}
+
+/* Section Titles with Maryland Accent Underline */
+.section-title {
+  color: #1e1e1e;
+  font-weight: 700;
+  border-bottom: 3px solid #e21833;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+.section-title i {
+  color: #e21833;
+}
+
+/* Experience Cards */
+.experience-card {
+  border-left: 4px solid #e21833 !important;
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.text-primary {
+  color: #e21833 !important;
+  font-weight: 600;
+}
+
+/* Skills Boxes */
+#skills .bg-light {
+  background-color: #ffffff !important;
+  border-top: 3px solid #ffd100;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e !important;
+  border-top: 3px solid #e21833;
+}
+/* Profile Image Styling */
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover; /* Prevents image distortion */
+  border: 4px solid #ffd100; /* Terp Gold Accent Ring */
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.03); /* Subtle hover effect */
+}
